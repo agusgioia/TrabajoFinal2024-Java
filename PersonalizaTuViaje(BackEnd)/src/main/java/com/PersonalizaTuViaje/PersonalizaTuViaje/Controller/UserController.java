@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/user")
-@CrossOrigin("https://personalizatuviaje.netlify.app/")
+@CrossOrigin("http://localhost:4200/")
 public class UserController {
 
     @Autowired
